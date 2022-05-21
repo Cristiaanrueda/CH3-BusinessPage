@@ -1,6 +1,5 @@
 
-
-
+/* HEADER ---------------- */
 
 header {
     display: flex;
@@ -97,4 +96,63 @@ header button:hover{
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
     font-size: 2rem;
+}
+
+/* METODOLOGIAS ------------- */
+
+.metodologias {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+.metodologias__container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+.clientes {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+.clients__container {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(1fr, 300px));
+}
+
+/* CONTACTO -------- */
+
+.contacto {
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+.contacto h2 {
+    margin-left: 3rem;
+}
+
+
+.contacto__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contacto__grid1 {
+    margin-left: 2rem;
+}
+
+.contacto__grid1--col1 {
+    display: inline-block;
+}
+.contacto__grid1--col2 {
+    display: inline-block;
+}
+
+
+
+
+/* FOOTER ----------- */
+
+footer {
+    text-align: center;
 }
