@@ -1,3 +1,10 @@
+/*NAV --- -----*/
+
+.nav--logo {
+
+}
+
+
 
 /* HEADER ---------------- */
 
@@ -125,10 +132,13 @@ header button:hover{
 
 .contacto {
     border: 1px solid rgba(0,0,0,0.19);
+    font-size: 2rem;
+    
 }
 
 .contacto h2 {
     margin-left: 3rem;
+    margin-top: 10rem;
 }
 
 
@@ -148,8 +158,41 @@ header button:hover{
     display: inline-block;
 }
 
+.contacto__grid2 {
+    margin-right: 2rem;
+    margin-top: -1rem;
+}
 
+.contacto__grid2 img {
+    width: 100%;
+}
 
+textarea {
+    resize: none;
+}
+
+/*FORM*/
+
+.form__container {
+    /*width: 50%;*/
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+form {
+   /* display: grid;*/
+   /*grid-gap: 2rem;*/
+
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+.asunto {
+    margin-bottom: 2rem;
+}
 
 /* FOOTER ----------- */
 
