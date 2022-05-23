@@ -98,23 +98,45 @@ header button:hover{
 
 }
 
+.benefits p {
+    opacity: 0.7;
+    margin-bottom: 10rem;
+}
+
 .benefits__container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
     font-size: 2rem;
+    
 }
+
+.benefit1 i,
+.benefit2 i,
+.benefit3 i {
+    color: grey;
+    font-size: 4rem;
+}
+
 
 /* METODOLOGIAS ------------- */
 
 .metodologias {
     text-align: center;
     border: 1px solid rgba(0,0,0,0.19);
+   
+}
+
+.metodologias p {
+    opacity: 0.8;
+    font-size: 2rem;
+
 }
 
 .metodologias__container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+   
 }
 
 
