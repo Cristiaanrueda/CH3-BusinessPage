@@ -10,10 +10,20 @@
 
 .options__container{
     display: flex;
-    margin-top: 2.3rem;
-   
+    margin-top: 3rem;
+    font-size: 2rem;
+}
 
-   
+.options__container a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.options__container a:hover {
+    opacity: 0.6;
+
 }
 
 .nav__img{
@@ -27,10 +37,11 @@
 
 .img__container {
     /*display: flex;*/
-    width: 70px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin-right: 55%;
     margin-left: 5%;
+    margin-bottom: -2rem;
 }
 
 /* HEADER ---------------- */
@@ -203,12 +214,13 @@ header button:hover{
 
 .clients__container {
     display: grid;
-    /* grid-template-columns: repeat(autofit, minmax(1fr, 300px)); */
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-columns: 300px 300px 300px 300px; */
     justify-content: center;
-    grid-gap: 5rem;
     margin-bottom: 20rem;
     margin-top: 5rem;
+    margin-left: 9rem;
+    grid-gap: 2rem;
 }
 
 .clients__container img {
@@ -221,10 +233,11 @@ header button:hover{
     border: 1px solid rgba(0,0,0,0.19);
     font-size: 2rem;
     
+    
 }
 
 .contacto h2 {
-    margin-left: 3rem;
+    margin-left: 13rem;
     margin-top: 10rem;
 }
 
@@ -232,6 +245,7 @@ header button:hover{
 .contacto__container {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-left: 10rem;
 }
 
 .contacto__grid1 {
@@ -240,9 +254,15 @@ header button:hover{
 
 .contacto__grid1--col1 {
     display: inline-block;
+    margin-right: 15rem;
 }
 .contacto__grid1--col2 {
     display: inline-block;
+}
+
+li {
+    margin-bottom: 2rem;
+    opacity: 0.7;
 }
 
 .contacto__grid2 {
@@ -285,4 +305,15 @@ label {
 
 footer {
     text-align: center;
+
+}
+
+.footerlogo__container{
+    margin-bottom: -25rem;
+    margin-top: -10rem;
+}
+
+.text__container p {
+    opacity: 0.7;
+    font-size: 2rem;
 }
